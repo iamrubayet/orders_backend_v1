@@ -25,7 +25,7 @@ cp .env.example .env
 
 ### 5. Download golang-migrate tool
 ```bash
-curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add 
+curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
 
 curl -s https://packagecloud.io/install/repositories/golang-migrate/migrate/script.deb.sh | sudo bash    
 sudo apt-get update   
