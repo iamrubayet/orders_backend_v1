@@ -22,7 +22,10 @@ go get ./...
 cp .env.example .env
 ```
 ### 4. setup database called ordersdb in postgres and make adjustments in .env according to you
-
+```bash
+sudo -u postgres psql
+create database ordersdb;
+```
 ### 5. Download golang-migrate tool
 ```bash
 curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
